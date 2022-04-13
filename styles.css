@@ -1,0 +1,73 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+   background-image: url(destination.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: #080808;
+    font-size: 40px;
+    font-family: Sofia;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px;
+}
+.heading
+{
+    color: rgb(12, 12, 11);
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin-left: 55%;
+}
+#container
+{
+    width: 40%;
+    height: 540px;
+    background-color: honeydew;
+    padding: 10px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+form>div{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0;
+    position: relative; /*this is for positioning the icons; */
+}
+.name,.email,.mobile,.password,.dest-selector,.duration
+{
+    margin: 5px 0;
+}
+#name,#email,#password,#mobile
+{
+    padding-left: 30px;
+}
+#dest
+{
+    margin-left: 10px;
+}
+.dest-selector
+{
+    margin: 15px 0px;
+}
+#btn
+{
+    color:white;
+    background-color: blueviolet;
+}
+#btn:hover
+{
+    background-color:green;
+}
+i /*for icons*/ /*note that icons are inline elements*/
+{
+    position: absolute; /*with respect to parent div*/
+    top: 40px;
+    left: 10px;
+}

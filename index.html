@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravDes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="title">Yatra</div>
+    <div class="heading">No matter where in the world you want to go, we can help get you there.</div>
+    <div id="container">
+        <form action="secondPage.html">
+            <div>
+                <label for="name">Name</label>
+                <i class="fa fa-user" style="color:black;"></i>
+                <input type="text" class="name form-control" id="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="fa fa-envelope" style="color:black;"></i>
+                <input type="email" class="email form-control" id="email" placeholder="123@gmail.com">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fa fa-lock" style="color:black;"></i>
+                <input type="password" class="password form-control" id="password" placeholder="Atleast 8 characters">
+            </div>
+            <div>
+                <label for="mobile">Mobile Number</label>
+                <i class="fa fa-mobile" style="color:black;"></i>
+                <input type="number" class="mobile form-control" id="mobile" placeholder="Mobile Number">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" class="date form-control" id="date">
+            </div>
+            <div class="dest-selector">
+                <label for="dest-select">Destination</label>
+                <select name="dest" id="dest">
+                    <option value="destn" default>SELECT DESTINATION</option>
+                    <option value="india">India</option>
+                    <option value="bahamas">Bahamas</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="france">France</option>
+                    <option value="greece">Greece</option>
+                    <option value="hong-kong">Hong Kong</option>
+                    <option value="thailand">Thailand</option>
+                </select>
+            </div>
+            <div class="duration">
+                <label for="duration">Duration: </label>
+                <label for="week1" style="margin-left: 5px;"> One Week</label>
+                <input type="checkbox" class="form-inline">
+                <label for="week2" style="margin-left: 5px;">Two Weeks</label>
+                <input type="checkbox" class="form-inline">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
